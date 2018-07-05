@@ -1,0 +1,29 @@
+<div>
+<h2>Fifa Teams for WorldCup 2018</h2>
+<table class="table">
+  <tr>
+    <thead>
+      <th class="id">
+        ID
+      </th>
+      <th class="name">
+        Name
+      </th>
+      <th class="code">
+        Code
+      </th>
+      <th class="flag"> 
+        Flag
+      </th>
+    </thead>
+  </tr>
+  <tr *ngFor ="let team of teams">
+    <tbody>
+      <td class="id">{{team.id}}</td>
+      <td class="name">{{team.name}}</td>
+      <td class="code">{{team.fifaCode}}</td>
+      <td class="flag"><img class="thumbnail inline" src={{team.flag}} class="container" resize-max-width="8"></td>
+    </tbody>
+  </tr>
+</table>
+</div>

@@ -1,0 +1,22 @@
+<h2>Matches!</h2>
+<div>
+  <table>
+    <tr id="{{match.name}}" *ngFor="let match of matches">
+
+      <td>
+        <img class="thumbnail inline" src={{match.flagHome}} class="container" resize-max-width="8">
+      </td>
+      <td id={{match.homeTeamID}}>{{match.homeTeamName}}</td>
+      <td><input [(ngModel)]="match.homeScore" class="box" type="text" maxlength="2"></td>
+      <td>-</td>
+      <td><input [(ngModel)]="match.awayScore"class="box" type="text" maxlength="2"></td>
+      <td>
+        <img class="thumbnail inline" src={{match.flagAway}} class="container" resize-max-width="8">
+      </td>
+      <td id={{match.awayTeamID}}>{{match.awayTeamName}}</td>
+      <td></td>
+      <td><button (click)="placeBet(match)">Bet</button></td>
+
+    </tr>
+  </table>
+</div>

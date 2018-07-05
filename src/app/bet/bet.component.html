@@ -1,0 +1,17 @@
+<!-- <div *ngIf=bet> -->
+  <div>
+  <tr>
+    <th>User</th>
+    <th>Match</th>
+    <th>Team 1</th>
+    <th>Team 2</th>
+    <th>Points</th>
+  </tr>
+  <tr *ngFor="let bet of bets">
+    <td>{{bet.UserID}}</td>
+    <td>{{bet.MatchID}}</td>
+    <td>{{bet.HomeScore}}</td>
+    <td>{{bet.AwayScore}}</td>
+    <td>{{bet.Points}}</td>
+  </tr>
+</div>

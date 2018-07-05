@@ -1,0 +1,16 @@
+.box{
+    max-width: 25px;
+    max-height: 30px;
+    border-radius: 8px;
+    border: 1px solid brown;
+    text-align: center;
+}
+.container {
+    width: 20px;
+    height: 12px;
+}
+.flag{
+    width: 50px; 
+    text-align: center
+    
+}

@@ -1,0 +1,34 @@
+
+
+.container {
+    width: 20px;
+    height: 12px;
+}
+.table, tr{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: -1ch;
+}
+th{
+    background-color:azure;
+}
+td{
+    align-content: left;
+}
+.id{
+    width: 20px;
+    text-align: left
+}
+.name{
+    width: 100px;
+    text-align: left
+}
+.code{
+    width: 50px;
+    text-align: left
+}
+.flag{
+    width: 50px; 
+    text-align: center
+    
+}

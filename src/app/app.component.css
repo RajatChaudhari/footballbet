@@ -1,0 +1,10 @@
+.bg{
+    background:url('../assets/images/bg1.jpg') no-repeat fixed center;
+    background-size:cover;
+}
+.title{
+    min-height: 800px;
+}
+.opa{
+    opacity: .3;
+}
